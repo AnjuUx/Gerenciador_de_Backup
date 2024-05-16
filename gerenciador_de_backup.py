@@ -21,7 +21,7 @@ nome_pasta_backup = "backup"
 #o nome da pasta backup vai ser "backup"
 
 nome_completo_pasta_backup = f"{nome_pasta_selecionada}/{nome_pasta_backup}"
-# aqui e onde a pasta backup está  olocal do  computador onde vai se encontrar a pasta backup
+# aqui e onde a pasta backup está  o local do  computador onde vai se encontrar a pasta backup
 if not os.path.exists(nome_completo_pasta_backup):
     # "os.path.exists ()" consegue verificar se  existe o arquivo na pasta ou não. 
     os.mkdir(nome_completo_pasta_backup)
